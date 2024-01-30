@@ -1,4 +1,12 @@
 % Central Catadioptric Camera Calibration Using Line Image and Mirror Contour
+% Inputs:
+%    C1 and C2 - Line image
+%    C0 - Mirror Contour
+%
+% Outputs:
+%    K - 3-by-3 - Intrinsic parameters
+%    l - 1-by-1 - Mirror parameter
+
 clc
 clear
 close all
@@ -159,7 +167,7 @@ c=c/c(4);
 C=[c(1)   c(2)/2 0;
    c(2)/2 c(3)   0;
    0      0      c(4)];
-K1=inv(chol(C)); 
+K1=inv(chol(C));
 K1=K1/K1(3,3) % get K
 
 Qs1=KKK'*C1*KKK; 
