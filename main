@@ -21,7 +21,7 @@ l = 0.2; %Mirror parameter, (0,1)%
 Image_num=2; % lines image should >= 2.
 [line_image] = generate_line_image(Image_num,K,l); % generate the simulation lines images
 
-d0 = 0.1; %
+d0 = 0.1; % distance between mirror contour and sphere center
 [mirror_contour] = generate_mirror_contour(d0,K,l); % generate the simulation mirror contour
 
 
