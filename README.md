@@ -8,4 +8,4 @@ A m-file which implements the **T** method for the review version in ECCV2024.
 ## How does it work ?
 
 The method is described in the submitted article. 
-To use it, just download [T.m](./T.m) file and execute it on your m-file interpreter.
+To use it, just download them and execute [main.m](./main.m) on your m-file interpreter.
