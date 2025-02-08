@@ -3,7 +3,7 @@
 
 ## What is this ?
 
-A m-file which implements the **T** method for the review version in ECCV2024.
+A m-file which implements the **T** method for the review version.
 
 ## How does it work ?
 
